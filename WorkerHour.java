@@ -1,5 +1,5 @@
 public class WorkerHour implements Salary {
-    private static final int Pay = 50;
+    private static final int PAY = 50;
     private String name;
 
     public WorkerHour(String name) {
@@ -8,7 +8,7 @@ public class WorkerHour implements Salary {
 
     @Override
     public int salary() {
-        return Pay*Hours*Days*YearMonth;
+        return PAY*HOURS*DAYS*YEAR_MONTH;
     }
 
     public void setName(String name) {
