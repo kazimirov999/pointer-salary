@@ -1,9 +1,10 @@
 public class Main {
     public static void main(String [] args){
-        WorkerHour ivan=new WorkerHour("Ivan");
-        WorkerMonth petr=new WorkerMonth("Petr");
+        WorkerHour ivan=new WorkerHour("Иван");
+        WorkerMonth petr=new WorkerMonth("Петр");
 
-        ivan.salary();
-        petr.salary();
+        System.out.println(ivan.getName()+" заробляє за рік (без вихідних та відпусток) == " + ivan.salary() + "$");
+        System.out.println(petr.getName()+" заробляє за рік (без відпусток) == " + petr.salary() + "$");
+
     }
 }

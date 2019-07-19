@@ -1,5 +1,5 @@
 public class WorkerMonth implements Salary {
-    private static final int pay = 20000;
+    private static final int Pay = 20000;
     private String name;
 
     public WorkerMonth(String name) {
@@ -7,9 +7,8 @@ public class WorkerMonth implements Salary {
     }
 
     @Override
-    public void salary() {
-        System.out.println(name+" заробляє за місяць == " + pay + "$");
-        System.out.println(name+" заробляє за рік (без відпусток) == " + (pay * yearMonth) + "$");
+    public int salary() {
+        return Pay*Hours*Days*YearMonth;
     }
 
     public String getName() {

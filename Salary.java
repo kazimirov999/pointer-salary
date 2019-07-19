@@ -1,6 +1,6 @@
 public interface Salary {
-    int days=30;
-    int hours=8;
-    int yearMonth=12;
-    void salary();
+   int Days=30;
+   int Hours=8;
+   int YearMonth=12;
+   int salary();
 }
