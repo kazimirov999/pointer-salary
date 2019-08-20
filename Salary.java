@@ -1,13 +1,13 @@
 
 
 public interface Salary {
-         int SALARY = 19000;
+         int SALARY = 19000; //помесячная зарплата(ставка)
          int HOURS =150;
          int HOURLYRATE =80;
 
 
-    void MonthSalary();
-    void HoursSalary();
+    void monthSalary();
+    void hourlySalary();
 
 
 
