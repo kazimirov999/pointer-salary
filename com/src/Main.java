@@ -6,6 +6,5 @@ public class Main {
         WorkerMonth worker2 = new WorkerMonth();
         worker1.Zp();
         worker2.Zp();
-
     }
 }
